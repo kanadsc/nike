@@ -1,0 +1,113 @@
+.greatest {
+  padding-bottom: 116px;
+}
+.greatest__row {
+  display: flex;
+  column-gap: 77px;
+  align-items: center;
+}
+.greatest__pagination {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 35px;
+}
+.greatest__pagination-btns {
+  display: flex;
+  column-gap: 10px;
+}
+.greatest__pagination-prev, .greatest__pagination-next {
+  cursor: pointer;
+}
+.greatest__pagination-doted {
+  text-align: center;
+}
+.greatest__pagination-doted .swiper-pagination-bullet {
+  width: 24.649px;
+  height: 24.649px;
+  border-radius: 50%;
+  background: #5CBE3A;
+}
+.greatest__block {
+  width: 70%;
+  position: relative;
+}
+.greatest__block::before {
+  content: "";
+  width: 326.134px;
+  height: 562.4px;
+  background: #F6FFF3;
+  position: absolute;
+  top: 50%;
+  right: 50px;
+  transform: translateY(-50%);
+  z-index: -1;
+}
+.greatest__block::after {
+  content: "2021";
+  color: #E5F2E1;
+  font-size: 261.487px;
+  font-weight: 600;
+  position: absolute;
+  top: 50%;
+  right: -270px;
+  transform: translateY(-50%) rotate(90deg);
+  z-index: -2;
+}
+.greatest__block .swiper {
+  width: 100%;
+  height: 100%;
+}
+.greatest__block .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.greatest__block .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.greatest__info {
+  width: 80%;
+  background: #fff;
+  box-shadow: -8px 10px 30px 0px rgba(0, 0, 0, 0.05);
+  padding: 66px 113px 73px 79px;
+  position: relative;
+  text-align: left;
+}
+.greatest__title {
+  color: #051101;
+  font-size: 31px;
+  font-weight: 700;
+  margin-bottom: 34px;
+}
+.greatest__user {
+  display: flex;
+  column-gap: 30px;
+  align-items: flex-start;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1882352941);
+  padding-bottom: 56px;
+}
+.greatest__user-name {
+  color: #051101;
+  font-size: 22px;
+  font-weight: 600;
+}
+.greatest__user-desc {
+  color: #051101;
+  font-weight: 500;
+  line-height: 150%;
+  margin: 18px 0 24px;
+}
+.greatest__user-exp {
+  display: flex;
+  column-gap: 33px;
+  color: #051101;
+  font-size: 22px;
+  font-weight: 600;
+}

@@ -1,0 +1,47 @@
+.latest {
+  padding: 118px 0 136px;
+}
+.latest__title {
+  text-align: center;
+  font-size: 44px;
+  font-weight: 700;
+}
+.latest__text {
+  color: #051101;
+  text-align: center;
+  font-weight: 400;
+  line-height: 150%;
+  margin: 25px 0 99px;
+}
+.latest__row {
+  display: flex;
+  column-gap: 30px;
+}
+.latest__card {
+  width: calc(33.33333% - 20px);
+  text-align: center;
+}
+.latest__card-block {
+  position: relative;
+}
+.latest__card-block::before {
+  content: url("../assets/latest-block.png");
+  position: absolute;
+  left: 0;
+  bottom: -20px;
+}
+.latest__card-title {
+  font-size: 22px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin: 35px 0 10px;
+}
+.latest__card-prices {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 10px 0 20px;
+}
+.latest__card-img {
+  width: 295px;
+  height: 150px;
+}
